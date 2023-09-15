@@ -31,9 +31,9 @@ class Tl < Formula
     bin.install "tl"
 
     if OS.linux?
-      prefix.install "libtltui.so"
+      lib.install "libtltui.so"
     else
-      prefix.install "libtltui.dylib"
+      lib.install "libtltui.dylib"
     end
   end
 
