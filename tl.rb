@@ -16,14 +16,14 @@ class Tl < Formula
 
   if OS.linux?
     url "https://textlambda.com/download/tl-v1.0.0-linux-x86-64.zip"
-    sha256 "5c2b1a79aefc5865505868b8cf2fb9680e04d49693fee13c74cc455a80a2d851"
+    sha256 "ee58c23bc9c2172c2e11366d31ef4028e9a2d901408d9ceb73f53984363fc9fb"
   else
     if Hardware::CPU.arm?
       url "https://textlambda.com/download/tl-v1.0.0-macos-arm-64.zip"
-      sha256 "3a32eb2a928e51d5b5e34091efc79628c8ca2f713249a3cb306a46d4f85eefed"
+      sha256 "7506e37fd86514be162a8da7b9932a39f143a9a529480278a55acfb426d83e77"
     else
       url "https://textlambda.com/download/tl-v1.0.0-macos-x86-64.zip"
-      sha256 "3200f37488ed63d66cb1ebe2a9641f0bf725159962e93e575357dcee52bfca92"
+      sha256 "fa49faa6fa7e64ffd6c6695713ef0b1d8533332a2d14698627721ec10cbc4773"
     end
   end
 
