@@ -1,7 +1,7 @@
 class Tl < Formula
   desc "Text λ cli"
   homepage "https://textlambda.com"
-  version "1.0.0"
+  version "1.0.1"
   license ""
 
   depends_on "libsodium"
@@ -15,15 +15,15 @@ class Tl < Formula
   end
 
   if OS.linux?
-    url "https://textlambda.com/download/tl-v1.0.0-linux-x86-64.zip"
-    sha256 "ee58c23bc9c2172c2e11366d31ef4028e9a2d901408d9ceb73f53984363fc9fb"
+    url "https://textlambda.com/download/tl-v1.0.1-linux-x86-64.zip"
+    sha256 "6d6dc52d5822214ded679cb0ed43ad015ec7dcc9c268f4490921e15e1c5b6543"
   else
     if Hardware::CPU.arm?
-      url "https://textlambda.com/download/tl-v1.0.0-macos-arm-64.zip"
-      sha256 "7506e37fd86514be162a8da7b9932a39f143a9a529480278a55acfb426d83e77"
+      url "https://textlambda.com/download/tl-v1.0.1-macos-arm-64.zip"
+      sha256 "f8990358ca3adb86b5d3f48094f172460373305187c9589029c81d1ec52eed10"
     else
-      url "https://textlambda.com/download/tl-v1.0.0-macos-x86-64.zip"
-      sha256 "fa49faa6fa7e64ffd6c6695713ef0b1d8533332a2d14698627721ec10cbc4773"
+      url "https://textlambda.com/download/tl-v1.0.1-macos-x86-64.zip"
+      sha256 "254ce6d1086e5a0749c72a5a34b507f8eba0e9816682a1b920217d3bc734e555"
     end
   end
 
